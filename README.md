@@ -1,25 +1,19 @@
-```markdown
+
 # NSCbookSorter
 
 A Java-based book sorting system for North Seattle College Library, designed to enhance catalog management with dynamic sorting options.
+
+## Sample output Screenshot
+
+![image](https://github.com/user-attachments/assets/4070dad1-92a5-4d32-8528-420c7a4c71bb)
+
+![image](https://github.com/user-attachments/assets/bdb85ee8-6c9a-4ba1-999f-0d3090c52107)
 
 ## Features
 - **Sort by Title**: Default alphabetical sorting.
 - **Sort by Author**: Alphabetical order by author name.
 - **Sort by Year**: Descending order (newest first).
 - **Chained Sorting**: Sort by author, then by title for same authors.
-
-## File Structure
-```
-src/
-├── main/
-│   ├── java/
-│   │   ├── Book.java                // Book entity with title, author, year
-│   │   ├── AuthorComparator.java    // Sorts by author
-│   │   ├── YearComparator.java      // Sorts by year (newest first)
-│   │   ├── ChainedAuthorTitleComparator.java // Sorts by author then title
-│   │   └── BookSorterDemo.java      // Demonstrates sorting and runs tests
-```
 
 ## Getting Started
 1. **Prerequisites**: Java JDK 11+, IntelliJ IDEA (or similar IDE).
@@ -33,7 +27,7 @@ Run `BookSorterDemo` to:
 - Observe test cases for normal and edge scenarios (e.g., empty lists, duplicate authors).
 
 ## Example Output
-```
+
 === Original Unsorted List ===
 "Clean Code" by Robert C. Martin (2008)
 "Design Patterns" by Erich Gamma (1994)
@@ -44,7 +38,7 @@ Run `BookSorterDemo` to:
 
 === Test Cases ===
 [Test outputs for edge cases...]
-```
+
 
 ## Test Cases
 - **Normal**: Title, author, and year sorting using the predefined book list.
@@ -52,4 +46,3 @@ Run `BookSorterDemo` to:
 
 ## Contributing
 Feel free to fork and enhance the comparators or add new sorting criteria.
-```
